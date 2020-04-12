@@ -1,0 +1,35 @@
+.header
+  padding: 103px 0
+.advantages
+  display: flex
+  justify-content: space-between
+.advantage-block
+  display: flex
+  flex-direction: column
+  align-items: center
+  &:not(:last-child)
+    margin-right: 30px
+  &__img
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 70px
+    height: 70px
+    margin-bottom: 27px
+
+    color: $color-border
+    font-size: 32px
+    border: 2px solid $color-border
+    border-radius: 50%
+  &__title
+    margin: 0
+    margin-bottom: 21px
+
+    font-size: 20px
+    line-height: 24px
+    font-weight: 700
+    color: $color-advantage-title
+    text-align: center
+  &__text
+    margin: 0
+    text-align: center

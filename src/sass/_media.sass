@@ -1,0 +1,41 @@
+@media(max-width: 1360px)
+  .container
+    max-width: 960px
+
+@media(max-width: 992px)
+  .container
+    max-width: 750px
+  footer
+    & .feedbacks
+      justify-content: center
+      flex-wrap: wrap
+      margin: 0
+      &__feedback-card
+        margin-bottom: 10px
+
+@media(max-width: 768px)
+  .container
+    max-width: 560px
+  .header
+    padding: 50px 0
+  .title
+    &__subtitle
+      margin-bottom: 40px
+  main
+    padding: 50px 0 50px 
+  footer
+    padding: 50px 0 50px 
+
+@media(max-width: 578px)
+  .container
+    width: 90%
+  .advantages
+    flex-wrap: wrap
+  .advantage-block:not(:last-child)
+      margin-bottom: 10px
+      margin-right: 0
+  .prices
+    flex-wrap: wrap
+    &__price-card
+      flex-basis: 100%
+      margin-bottom: 10px
